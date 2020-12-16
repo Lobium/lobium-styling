@@ -1,0 +1,83 @@
+table.l-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  min-width: 400px;
+  color: $magnolia;
+
+  overflow: hidden;
+}
+table.l-table td, table.l-table th {
+
+  padding: 15px 5px;
+  vertical-align: middle;
+}
+table.l-table tbody td {
+  font-size: 1.5rem;
+  padding: 30px 5px;
+    text-align: center;
+}
+
+table.l-table tbody .symbol{
+  font-size: 20px;
+    text-align: center;
+}
+
+table.l-table tr:nth-child(even) {
+  background-color: $dark-gunmetal;
+}
+
+table.l-table {
+  background-color: $gunmetal-m1;
+  -webkit-box-shadow: 0px 14px 33px -16px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 14px 33px -16px rgba(0,0,0,0.6);
+  box-shadow: 0px 14px 33px -16px rgba(0,0,0,0.6);
+}
+
+table.l-table thead {
+  background: $primary;
+
+}
+table.l-table thead th {
+  font-size: 1.5rem;
+  color: $secondary;
+  text-align: center;
+
+}
+table.l-table thead th:first-child {
+
+}
+
+table.l-table tfoot td {
+  background: $accent;
+  color: $secondary;
+  text-align: center;
+  padding: 2px;
+}
+table.l-table tfoot {
+  
+}
+table.l-table tfoot .links a{
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+table.l-table tbody td {
+  font-size: 10px;
+}
+table.l-table tbody .symbol{
+  font-size: 13px;
+}
+table.l-table thead th {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+div.l-table-container {
+  overflow-y: scroll;
+
+}
+
+}

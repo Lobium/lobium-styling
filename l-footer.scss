@@ -1,0 +1,47 @@
+/* ==========================================================================
+Fresh Footer
+========================================================================== */
+
+footer.footer-dark {
+    background: $dark-gunmetal;
+    color: $border-grey;
+    .columns {
+        margin-top: 35px;
+    }
+    .footer-logo {
+        img {
+            height: 60px;
+        }
+    }
+    .footer-column {
+        .footer-header h3 {
+            font-weight:400;
+            font-size: 1.0rem;
+            font-family: 'Quantico', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            color: $border-grey;
+        }
+        ul.link-list {
+            line-height: 35px;
+            a {
+                color: $magnolia;
+                letter-spacing: 0.25px;
+                font-weight: 300;
+            }
+            :hover {
+                color: $primary;
+            }
+        }
+        .level-item .icon {
+            color: $primary;
+            font-size: 1.5rem;
+            transition: all 0.5s;
+            :hover {
+                color: $magnolia;
+                z-index: 400;
+            }
+        }
+    }
+}

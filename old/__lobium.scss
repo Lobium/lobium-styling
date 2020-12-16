@@ -1,0 +1,106 @@
+.l-test{
+	border: 1px solid red !important;
+}
+
+.l-fw-300{
+  font-weight: 300 !important;
+}
+
+.l-fw-400{
+  font-weight: 400 !important;
+}
+
+.l-fw-700{
+  font-weight: 700 !important;
+}
+
+.l-color-primary{
+	color: $primary !important;
+}
+
+.l-color-secondary{
+	color: $secondary !important;
+}
+
+.l-color-accent{
+	color: $accent !important;
+}
+
+.l-bg-color-primary{
+	background-color: $primary !important;
+}
+
+.l-bg-color-secondary{
+	background-color: $secondary !important;
+}
+
+.l-bg-color-accent{
+	background-color: $accent !important;
+}
+
+.l-bg-color-magnolia{
+	background-color: $magnolia !important;
+}
+
+.l-muted{
+	color: $border-grey !important;
+}
+
+.l-open-sans{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.l-quantico{
+	font-family: 'Quantico', sans-serif !important;
+}
+
+.l-color-magnolia{
+	color: $magnolia !important;
+}
+
+.l-dlines {
+	pointer-events: none;
+	opacity: 1;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 200;
+	background: url("/images/diagonal-lines.png");
+	background-repeat: repeat;
+}
+
+.l-has-dlines {
+	background: url("/images/diagonal-lines.png");
+	background-repeat: repeat;
+}
+
+#site-overlay {
+	pointer-events: none;
+	opacity: 0.15;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	background: url("/images/diagonal-lines.png");
+	background-repeat: repeat;
+}
+
+#site-background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -100;
+	background: $secondary;
+}

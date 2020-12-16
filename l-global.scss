@@ -1,0 +1,11 @@
+body {
+    color: $magnolia;
+}
+
+a {
+    color: $primary;
+
+    &:hover{
+    	color: $accent;
+    }
+}
